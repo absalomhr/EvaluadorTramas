@@ -2,12 +2,12 @@
 
 ## Para correr el programa se necesita tener instalado WinPcap y una configuración de ejecución. Puedes seguir las instrucciones aquí: https://github.com/elpatsan/EvaluadorTramas/blob/master/Instrucciones/JNETPCAP.pdf
 
-### Lo primero que veremos al correr el programa será el menú:
+### 1.- Lo primero que veremos al correr el programa será el menú:
 
 ![GitHub Logo](/Capturas/menu.png)
 
 Tenemos la opción de capturar tramas de algún dispositivo o leer un archivo .pcap y analizarlo.
-### Elegimos capturar tramas del dispositivo:
+### 2.- Elegimos capturar tramas del dispositivo:
 
 ![GitHub Logo](/Capturas/menu2.png)
 
@@ -15,7 +15,7 @@ Ahora podemos elegir capturar todas las tramas por un tiempo determinado o captu
 
 ![GitHub Logo](/Capturas/menu3.png)
 
-### Obtenemos los resultados:
+### 3.- Obtenemos los resultados:
 
 ![GitHub Logo](/Capturas/resultados.png)
 
