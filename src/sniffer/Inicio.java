@@ -45,7 +45,9 @@ public class Inicio extends JFrame implements ActionListener{
         setSize(400, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Imagenes/icono.png")));
+        ImageIcon img = new ImageIcon("/Imagenes/icono.png");
+        setIconImage(img.getImage());
+        //setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Imagenes/icono.png")));
         
         
         getDevices();
@@ -141,6 +143,8 @@ public class Inicio extends JFrame implements ActionListener{
         
         l3 = new JLabel();
         l3.setLocation(0, 0);
+        //ImageIcon img = new ImageIcon("/Imagenes/icono.png");
+        //setIconImage(img.getImage());
         l3.setIcon (new ImageIcon(getClass().getResource("/Imagenes/fondo.jpg")));
         
         add (l3);
